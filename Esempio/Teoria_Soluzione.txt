@@ -1,0 +1,19 @@
+1) A quali componenti può essere applicato il modificatore final? Cosa comporta nei vari casi?
+
+    Può essere applicato a campi, metodi e classi.
+    Un campo final non può essere più assegnato e deve essere inizializzato nel costruttore
+    Un metodo final non può essere soggetto di override
+    Una classe final non può essere estesa
+
+2) E' possibile implementare un metodo all'interno dell'interfaccia? se si come? se no perchè? é possibile definire un campo?
+che restrizioni ha rispetto alle implementazioni di una classe normale?
+
+    Sì si può implementare un metodo ma è necessario definirlo default
+    Si possono definire campi ma devono essere statici o final
+    L'implementazione dei metodi non ha restrizioni
+
+3) Differenza tra int e Integer? è possibile assegnare int ad Integer? e viceversa? perchè?
+
+    int è un tipo mentre Integer è una classe wrapper (tipo di reference)
+    Integer eredità i metodi di Object
+    E' possibile la conversione da int a Integer e viceversa grazie all'autoboxing
