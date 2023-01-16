@@ -1,3 +1,5 @@
+package Greenpass;
+
 public class GreenPass {
-    private String codFisc;
+    private int codFisc;
 }
