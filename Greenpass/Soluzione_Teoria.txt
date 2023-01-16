@@ -1,5 +1,0 @@
-1) elencare tutti gli access modifiers e le loro proprietà
-
-2) definizione di annotazione e diverse tipologie
-
-3) differenza tra firma e dichiarazione di un metodo. significato di overriding
