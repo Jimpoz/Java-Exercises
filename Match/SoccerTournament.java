@@ -30,7 +30,8 @@ public class SoccerTournament {
         for (Match m : matches) {
             if (m.winner().equals(squadra)) {
                 res += 3;
-            } else if (m.winner() == null) {
+            }
+            if (m.winner() == null) {
                 res += 1;
             }
         }
