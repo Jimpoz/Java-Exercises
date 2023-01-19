@@ -13,10 +13,10 @@ public class SoccerTournament {
                 throw new MatchException("Non è istanza di SoccerMatch");
             }
             if (!(squadre.contains(m.get_nome1()))) {
-                throw new MatchException("Il nome non è presente nella lista delle squadre");
+                throw new MatchException("Input incorretto");
             }
             if (!(squadre.contains(m.get_nome2()))) {
-                throw new MatchException("Il nome non è presente nella lista delle squadre");
+                throw new MatchException("Input incorretto");
             }
         }
 
