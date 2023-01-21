@@ -1,3 +1,3 @@
 # Java-Exercises
 
-some java exercises
+Esercizi pratici di java
